@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import axios from 'axios'
+//import axios from 'axios'
 import TreeList, {
   Column,
   ColumnChooser,
@@ -9,8 +9,10 @@ import TreeList, {
 } from 'devextreme-react/ui/tree-list'
 import testData from '../subcomponents/Data'
 
+/*
 const CPQ_URL = 'https://cpq-p10-028.bigmachines.com/rest/v5/customOracle_BomItemDef'
 const CPQ_AUTH = 'Basic bndoYWxleTptYWtlaXRoYXBwZW4='
+*/
 
 class BOMTable extends Component {
   constructor () {
@@ -21,6 +23,7 @@ class BOMTable extends Component {
     }
   }
 
+  /*
   componentDidMount () {
     axios(CPQ_URL, {headers: {Authorization: CPQ_AUTH}})
       .then(response => {
@@ -34,6 +37,7 @@ class BOMTable extends Component {
         console.log(error)
       })
   }
+  */
 
   render () {
     return (

@@ -32,7 +32,7 @@ const SidebarContent = props => {
     : styles.sidebar
 
   return (
-    <SideBarPanel title={'Extension'} style={style}>
+    <SideBarPanel title={'SFDC CPQ Extension'} style={style}>
       <div style={styles.content}>
         <Link to='/'style={styles.sidebarLink}>Home</Link>
         <div style={styles.divider} />
