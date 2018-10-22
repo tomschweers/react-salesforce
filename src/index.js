@@ -14,5 +14,5 @@ render((
   <BrowserRouter>
     <App />
   </BrowserRouter>
-), document.getElementById('root'));
-registerServiceWorker();
+), document.getElementById('root'))
+registerServiceWorker()

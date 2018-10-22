@@ -32,13 +32,11 @@ const SidebarContent = props => {
     : styles.sidebar
 
   return (
-    <SideBarPanel title={'My Application'} style={style}>
+    <SideBarPanel title={'Extension'} style={style}>
       <div style={styles.content}>
         <Link to='/'style={styles.sidebarLink}>Home</Link>
         <div style={styles.divider} />
-        <Link to='/page1'style={styles.sidebarLink}>Page 1</Link>
-        <Link to='/page2'style={styles.sidebarLink}>Page 2</Link>
-        <Link to='/page3'style={styles.sidebarLink}>Page 3</Link>
+        <Link to='/cpq'style={styles.sidebarLink}>CPQ</Link>
       </div>
     </SideBarPanel>
   )

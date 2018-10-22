@@ -102,7 +102,7 @@ class App extends React.Component {
             =
           </a>
         )}
-        <span> My Application</span>
+        <span> Salesforce CPQ Extension</span>
       </span>
     )
 
